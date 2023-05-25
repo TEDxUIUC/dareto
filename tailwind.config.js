@@ -9,6 +9,7 @@ export default {
     extend: {
       fontFamily: {
         Inter: ['Inter', 'sans-serif'],
+        Gatwick: ['Gatwick', 'sans-serif'],
       },
     },
   },
