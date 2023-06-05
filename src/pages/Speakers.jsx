@@ -29,25 +29,25 @@ function Speakers() {
                     <h1 className='text-white text-center text-4xl font-bold font-Inter'>INSPIRE</h1>
                 </div>
             </section>
-            <section id="speakers" className='mx-auto overflow-hidden flex flex-col gap-4 xl:flex-row justify-center items-center'>
+            <section id="speakers" className='grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 place-items-center mx-10'>
 
                 <div className=''>
-                    <img className="w-60 rounded-full"src={Deepak} ></img>
+                    <img className="w-80 rounded-full"src={Deepak} ></img>
                 </div>
                 <div className=''>
-                    <img className="w-60 rounded-full"src={Shivam}></img>
+                    <img className="w-80 rounded-full"src={Shivam}></img>
                 </div>
                 <div className=''>
-                    <img className="w-60 h-60 object-cover rounded-full"src={Pooja}></img>
+                    <img className="w-80 h-80 object-cover rounded-full"src={Pooja}></img>
                 </div>
                 <div className=''>
-                    <img className="w-60 h-60 object-cover rounded-full"src={Nithya}></img>
+                    <img className="w-80 h-80 object-cover rounded-full"src={Nithya}></img>
                 </div>
                 <div className=''>
-                    <img className="w-60 h-60 object-cover rounded-full"src={Lorena}></img>
+                    <img className="w-80 h-80 object-cover rounded-full"src={Lorena}></img>
                 </div>
                 <div className=''>
-                    <img className="w-60 h-60 object-cover rounded-full"src={Jasmine}></img>
+                    <img className="w-80 h-80 object-cover rounded-full"src={Jasmine}></img>
                 </div>
             </section>
         </>
